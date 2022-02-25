@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;800&display=swap");
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 150px;
+}
+
+.header__underline {
+  display: block;
+  border-bottom: 1px #f0f2f4 solid;
+  margin: 0 150px;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+.menu-item a {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: #b6bcc8;
+  font-size: 15px;
+  vertical-align: sub;
+  margin-right: 30px;
+}
+
+.header__cart-avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.avatar {
+  margin-left: 40px;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px 180px;
+}
+
+.product__images {
+  margin-right: 100px;
+}
+
+.big__image {
+  width: 500px;
+  height: 500px;
+  border-radius: 13px;
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  border-radius: 13px;
+  margin-bottom: -3px;
+}
+
+.thumbnails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.thumbnail:hover {
+  opacity: 0.7;
+}
+
+.thumbnail--active {
+  opacity: 0.4;
+}
+
+.border--active {
+  outline: 2.5px solid #ff7d1a;
+  border-radius: 13px;
+}
+
+.top__p {
+  text-transform: uppercase;
+  color: #ff7d1a;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.product__title {
+  color: #1d2025;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+.description__p {
+  font-size: 15px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #b6bcc8;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 35px;
+  letter-spacing: 0.5px;
+}
+
+.actual__price {
+  color: #1d2025;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.discount {
+  background: #ffede0;
+  color: #ff7d1a;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 4px 6px;
+  border-radius: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.old__price {
+  color: #b6bcc8;
+  text-decoration: line-through;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.actual__price__discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.add__button {
+  background: #ff7d1a;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 15px;
+  border: none;
+  font-weight: 700;
+  padding: 13px 80px;
+  margin-left: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 20px 30px #ffe2cc;
+          box-shadow: 0px 20px 30px #ffe2cc;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.add__cart__text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.cart__adding {
+  margin-right: 15px;
+  padding-top: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plus__less {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f7f8fd;
+  padding: 17px 12px;
+  border-radius: 10px;
+}
+
+.less,
+.plus {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.number__items {
+  font-weight: 700;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #1d2025;
+  padding: 0 45px;
+  font-size: 15px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=style.css.map */
